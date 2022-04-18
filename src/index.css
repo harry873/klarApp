@@ -1,0 +1,37 @@
+/* / MOBILE / */
+html {
+  font-size: 10px;
+}
+
+/* / TABLET / */
+@media only screen and (min-width: 425px) {
+  /* html {
+    font-size: 13px;
+  } */
+}
+
+/* / DESKTOP / */
+@media only screen and (min-width: 768px) {
+  /* html {
+    font-size: 12px;
+  } */
+}
+
+/* / X-LARGE / */
+@media only screen and (min-width: 1020px) {
+  html {
+    font-size: 12px;
+  }
+}
+/* / X-LARGE / */
+@media only screen and (min-width: 1224px) {
+  html {
+    font-size: 15px;
+  }
+}
+/* / X-LARGE / */
+@media only screen and (min-width: 2224px) {
+  html {
+    font-size: 30px;
+  }
+}

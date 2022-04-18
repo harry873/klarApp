@@ -1,0 +1,144 @@
+.main-dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #b0b5b7;
+}
+
+@media only screen and (max-width: 425px) {
+  .main-container {
+    height: auto;
+    width: auto;
+  }
+  .desktop {
+    display: none !important;
+  }
+
+  .imgSetting {
+    object-fit: cover;
+    width: 87%;
+    border-radius: 3px;
+  }
+  .divseting {
+    height: 3rem;
+  }
+  .rec-swipable {
+    gap: 0.3rem;
+  }
+  .divseting {
+    font-size: 0.8rem;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .main-container {
+    height: auto;
+    width: auto;
+  }
+  .desktop {
+    display: none !important;
+  }
+
+  .imgSetting {
+    object-fit: cover;
+    width: 87%;
+    border-radius: 3px;
+  }
+  .divseting {
+    height: 3rem;
+  }
+  .rec-swipable {
+    gap: 0.3rem;
+  }
+  .divseting {
+    font-size: 0.8rem;
+  }
+}
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .mobile-screenn {
+    display: none;
+  }
+  html {
+    font-size: 8px !important;
+  }
+}
+/* ///////////// END ////////////// */
+
+/* Landscape */
+@media only screen and (min-device-width: 775px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  html {
+    font-size: 10px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 700px) and (max-device-width: 870px) and (orientation: landscape) {
+  html {
+    font-size: 10px;
+  }
+  .mobile-screenn {
+    display: none;
+  }
+}
+
+/* Landscape */
+@media screen and (device-width: 740px) and (device-height: 360px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+  .mobile-screenn {
+    display: none;
+  }
+  html {
+    font-size: 9px !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .desktop {
+    display: none;
+  }
+  html {
+    font-size: 20px !important;
+  }
+  .main-container {
+    height: auto;
+    width: auto;
+  }
+  .imgSetting {
+    width: 100%;
+  }
+  .rec-swipable {
+    gap: 0.3rem;
+  }
+  .divseting {
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 3rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .mobile-screenn {
+    display: none;
+  }
+  /* html {
+    font-size: 15px !important;
+  } */
+}
+@media only screen and (min-device-width: 1180px) and (max-device-width: 1180px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  html {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (min-device-width: 1368px) and (max-device-width: 1368px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  html {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mobile-screenn {
+    display: none;
+  }
+}

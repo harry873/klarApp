@@ -1,0 +1,17 @@
+.apointDiv {
+  margin: 2.7rem auto;
+  padding: 01rem;
+}
+.apointDiv p {
+  font-size: 2.3rem;
+}
+.form-group select {
+  width: 6rem;
+
+  background-color: #eeeeee;
+  text-align: center;
+}
+.slectform {
+  display: flex;
+  justify-content: center;
+}
